@@ -1,0 +1,26 @@
+# Maintainer roster for KServe
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "kserve"
+    org: "kserve"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - yuzisun
+          - terrytangyuan
+          - Jooho
+          - spolti
+          - israel-hdez
+          - greenmoon55
+          - cmaddalozzo
+          - lizzzcai
+          - sivanantha321
+          - andyi2it
+          - johnugeorge
+          - gavrissh
+          - Datta0
+          - rachitchauhan43
+          - cjohannsen-cloudera
