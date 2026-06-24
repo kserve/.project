@@ -1,7 +1,6 @@
 # .project metadata for KServe
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
 
 schema_version: "1.0.0"
@@ -10,14 +9,16 @@ name: "KServe"
 description: "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
 type: "project"
 project_lead: "yuzisun" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#questions-and-issues"
+slack_channels:
+  - name: "#kserve"
     primary: true
+  - name: "#kserve-contributors"
+    primary: false
 
 maturity_log:
   - phase: "incubating"
     date: "2025-09-29T00:00:00Z"
-    issue: "https://github.com/cncf/toc/issues/1905" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/toc/issues/1905"
 
 repositories:
   - "https://github.com/kserve/kserve"
@@ -26,9 +27,8 @@ website: "https://kserve.github.io/website/"
 
 artwork: "https://landscape.cncf.io/logos/./k-serve-color.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/kserve/kserve/blob/master/ADOPTERS.md"
+adopters:
+  path: "https://github.com/kserve/website/blob/main/docs/community/adopters.md"
 
 
 # TODO: Add package manager identifiers if your project is distributed via registries
@@ -52,8 +52,8 @@ legal:
   license:
     path: "https://github.com/kserve/kserve/blob/master/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
