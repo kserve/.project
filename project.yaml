@@ -8,7 +8,7 @@ slug: "kserve"
 name: "KServe"
 description: "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
 type: "project"
-project_lead: "yuzisun" # TODO: AUTO-DETECTED — please verify
+project_lead: "terrytangyuan" # TODO: AUTO-DETECTED — add yuzisun once this allows a list
 slack_channels:
   - name: "#kserve"
     primary: true
