@@ -25,7 +25,7 @@ repositories:
 
 website: "https://kserve.github.io/website/"
 
-artwork: "https://landscape.cncf.io/logos/./k-serve-color.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kserve"
 
 adopters:
   path: "https://github.com/kserve/website/blob/main/docs/community/adopters.md"
